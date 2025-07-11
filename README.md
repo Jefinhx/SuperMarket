@@ -16,30 +16,5 @@ Supermaket é um sistema de gestão (ERP) de desktop para pequenos e médios mer
 * **Linguagem:** Object Pascal
 * **IDE:** Embarcadero Delphi (versão 11 Alexandria ou superior)
 * **Banco de Dados:** MySql Worbench (versão 8.0 ou superior)
-* **Acesso a Dados:** Componentes FireDAC
-
-Siga os passos abaixo para configurar e executar o projeto.
-
-**1. Clone o repositório:**
-```bash
-git clone [https://github.com/seu-usuario/supermaket-delphi.git](https://github.com/seu-usuario/supermaket-delphi.git)
-cd supermaket-delphi
-```
-
-**2. Configure o Banco de Dados:**
-1.  Certifique-se de que o serviço do Firebird está ativo.
-2.  Localize o script de criação do banco de dados no diretório `/database/create_database.sql`.
-3.  Utilize uma ferramenta de administração do Firebird (como o IBExpert ou o `isql-fb` via linha de comando) para executar o script e criar o banco `SUPERMAKET.FDB`.
-4.  Verifique o arquivo de configuração de conexão no projeto (geralmente um `TFDConnection` em um Data Module) e ajuste os parâmetros (usuário, senha, caminho do banco) se necessário.
-
-**3. Abra e Compile o Projeto no Delphi:**
-1.  Abra o Delphi IDE.
-2.  Vá em `File > Open Project...` e localize o arquivo do projeto no diretório clonado (ex: `Supermaket.dproj`).
-3.  O Delphi carregará o projeto e seus formulários. Se houver dependências de componentes de terceiros, instale-os usando o GetIt Package Manager.
-4.  Pressione a tecla **`F9`** ou vá até o menu **`Run > Run`** para compilar e executar a aplicação.
-
-## 🔑 Acesso Padrão ao Sistema
-
-Ao executar o programa, a tela de login será exibida.
 
 
