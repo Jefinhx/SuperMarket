@@ -1,9 +1,5 @@
 # Sistema de Gestão - Supermaket (Delphi)
 
-![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Plataforma](https://img.shields.io/badge/plataforma-Windows-blue)
-![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
-
 Supermaket é um sistema de gestão (ERP) de desktop para pequenos e médios mercados, projetado para centralizar e simplificar as operações do dia a dia.
 
 ## 🌟 Funcionalidades Principais
@@ -19,19 +15,8 @@ Supermaket é um sistema de gestão (ERP) de desktop para pequenos e médios mer
 
 * **Linguagem:** Object Pascal
 * **IDE:** Embarcadero Delphi (versão 11 Alexandria ou superior)
-* **Framework:** VCL (Visual Component Library) para interface nativa do Windows.
-* **Banco de Dados:** Firebird (versão 4.0 ou superior)
+* **Banco de Dados:** MySql Worbench (versão 8.0 ou superior)
 * **Acesso a Dados:** Componentes FireDAC
-
-## ⚙️ Pré-requisitos
-
-Antes de compilar o projeto, você precisa ter instalado em sua máquina:
-
-* **[Embarcadero Delphi](https://www.embarcadero.com/products/delphi)** (versão 11 ou superior).
-* **Servidor de Banco de Dados [Firebird](https://firebirdsql.org/)** (versão 4.0 ou superior) instalado e rodando.
-* **[Git](https://git-scm.com/)** para clonar o repositório.
-
-## 🚀 Instalação e Execução
 
 Siga os passos abaixo para configurar e executar o projeto.
 
